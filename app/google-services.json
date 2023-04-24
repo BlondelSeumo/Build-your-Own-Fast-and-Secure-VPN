@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "817260232794",
+    "firebase_url": "https://sam-vpn-app-default-rtdb.firebaseio.com",
+    "project_id": "sam-vpn-app",
+    "storage_bucket": "sam-vpn-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817260232794:android:0edf9d32f0e0264ade9863",
+        "android_client_info": {
+          "package_name": "com.samvpn.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817260232794-bvimqss206j8nel5r0vq4cdbjnqvf1r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY5VPvR6JtMOywn43W0td6VwAQLikZPjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817260232794-bvimqss206j8nel5r0vq4cdbjnqvf1r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomNavItem">
+        <attr name="nav_icon" format="reference" />
+        <attr name="nav_title" format="string" />
+    </declare-styleable>
+    <declare-styleable name="SelectionItemView">
+        <attr name="siv_icon" format="reference" />
+        <attr name="siv_title" format="string" />
+        <attr name="siv_description" format="string" />
+        <attr name="siv_price" format="string" />
+        <attr name="siv_action" format="enum">
+            <enum name="CHECK_BOX" value="0" />
+            <enum name="PREMIUM" value="1" />
+            <enum name="ARROW" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="InputView">
+        <attr name="iv_label" format="string" />
+        <attr name="iv_hint" format="string" />
+        <attr name="android:inputType" />
+        <attr name="iv_action" format="enum">
+            <enum name="NONE" value="0" />
+            <enum name="CANCEL" value="1" />
+            <enum name="HINT" value="2" />
+        </attr>
+        <attr name="state_error" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SnackBarView">
+        <attr name="sbv_icon" format="reference" />
+        <attr name="sbv_message" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="AuthToolbar">
+        <attr name="atb_left" format="reference" />
+        <attr name="atb_title" format="string" />
+        <attr name="atb_right" format="string" />
+    </declare-styleable>
+</resources>

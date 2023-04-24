@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1A2B63</color>
+    <color name="primary_dark">#1A2B63</color>
+    <color name="colorAccent">#1A2B63</color>
+    <color name="white">#FFFFFF</color>
+    <color name="splash_bg">#EBF5FF</color>
+    <color name="splash_btn">#EBF5FF</color>
+    <color name="black">#000000</color>
+
+    <!--
+    <color name="splashscreencolor">#EE0A0A</color>
+-->
+    <color name="colorwhite">#ffffff</color>
+    <color name="textcolor">#EBF5FF</color>
+    <color name="greyLight">#9e9e9e</color>
+    <color name="splashscreencolor">#1d89e4</color>
+    <color name="colorPrimary">#1A2B63</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="popUpBg">#1A2B63</color>
+    <color name="listDivider">#356690</color>
+    <color name="primary_white_text">@android:color/white</color>
+    <color name="colorview">#32000000</color>
+    <color name="text_color">#8000FF</color>
+    <color name="tab_background_selected">#2499E0</color>
+    <color name="colorlighttext">#4e5457</color>
+    <color name="colortextblue">#136af6</color>
+    <color name="colortextred">#F63030</color>
+    <color name="colorinactive">#636363</color>
+    <color name="colorlightgrey">#848585</color>
+    <color name="colorGrey">#dcdcdc</color>
+    <color name="toolbarTitle">#1A2B63</color>
+    <color name="toolbarBg">#356690</color>
+
+    <color name="buttonText">#cbecfd</color>
+    <color name="buttonBg">#356690</color>
+
+    <color name="totalServers">#ffffff</color>
+
+    <color name="infoServersList">#EBF5FF</color>
+
+    <color name="ratingNot">#A7A7A7</color>
+
+    <color name="activeServer">#EBF5FF</color>
+    <color name="additionalServer">#EBF5FF</color>
+
+    <color name="serverNameBg">#cbecfd</color>
+    <color name="serverName">#356690</color>
+    <color name="lightRed">#FFFFFF</color>
+    <color name="txt_grey">#4e5457</color>
+    <color name="txt_blue">#136af6</color>
+    <color name="red">#f63030</color>
+
+
+    <color name="colorBgSelected">#00e6b2</color>
+    <color name="colorBgUnSelected">#1A2B63</color>
+    <color name="colorBlueActionButton">#1A2B63</color>
+    <color name="colorTextGray">#adadad</color>
+    <color name="colorPrimary2">#1A2B63</color>
+    <color name="colorTextBlack">#212121</color>
+    <color name="colorTextPrimary">#ffffff</color>
+    <color name="colorBgSnackbar">#714fff</color>
+    <color name="colorError">#00e6b2</color>
+    <color name="colorLineChart">#714fff</color>
+    <color name="colorBackgroundLineChart">#1A2B63</color>
+    <color name="colorBackgroundPremium">#1A2B63</color>
+    <color name="mainColor">#1A2B63</color>
+    <color name="colorAccent2">#ff2e93</color>
+
+    <color name="main_view_pager_item_buy_subscription_btn_bg">#714ffe</color>
+    <color name="main_view_pager_item_watch_ad_btn_or_tap_to_connect_btn_bg">#00e6b2</color>
+    <color name="main_view_pager_item_flag_title">#31363C</color>
+    <color name="view_pager_servers_tap_to_connect_not_connected">@color/main_view_pager_item_watch_ad_btn_or_tap_to_connect_btn_bg</color>
+    <color name="view_pager_servers_tap_to_connect_connecting">#ff2e93</color>
+    <color name="view_pager_servers_tap_to_connect_connected">@color/colorBgSelected</color>
+
+
+
+</resources>

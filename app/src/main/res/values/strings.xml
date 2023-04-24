@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">SAM VPN</string>
+    <string name="created_by">created By Will_Dev</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Not Connect</string>
+    <string name="carrier_id_title">Dev</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnect_description">Server disconnect button</string>
+    <string name="paused">Paused</string>
+    <bool name="ads_switch">true</bool>
+    <string name="privacy_policy_link">https://project.willdev.in/privacy_policy/SAM_VPN.html</string>
+    <bool name="admob_list_ads">true</bool>
+    <string name="kBps">kB/s</string>
+    <string name="MBps">MB/s</string>
+    <string name="kbps">kb/s</string>
+    <string name="Mbps">Mb/s</string>
+    <string name="plus99">99+</string>
+    <string name="dash">-</string>
+    <bool name="facebook_list_ads">false</bool>
+    <string name="spro_price_month_30266325"> 4.20$</string>
+    <string name="spro_three_month_30266325"> 8.20$</string>
+    <string name="spro_six_month_30266325"> 13.10$</string>
+    <string name="spro_twelve_month_30266325"> 18.20$</string>
+    <string name="vpn">VPN</string>
+    <string name="premium">PREMIUM</string>e
+    <string name="profile">PROFILE</string>
+    <string name="upload">Upload</string>
+    <string name="download">Download</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connecting_">Connecting (%s)</string>
+    <string name="waiting">Waiting…</string>
+    <string name="login">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email_address">Email address</string>
+    <string name="ok">OK</string>
+    <string name="refresh">Refresh</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="edit">Edit</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="cancel_premium">Cancel Premium</string>
+    <string name="view_package">View package</string>
+    <string name="confirm">Confirm</string>
+    <string name="banner_premium_packages">Premium Membership</string>
+    <string name="banner_description">By the Premium Plan and Get Ride of \n Fastest Servers in the world.</string>
+
+    <string name="state_nonetwork">NO NETWORK. TRY AGAIN</string>
+    <string name="state_paused">RESUME</string>
+    <string name="state_auth">AUTHENTICATING…</string>
+    <string name="state_config">GETTING CONFIGURATIONS…</string>
+    <string name="state_assign_ip">ASSIGNING IP…</string>
+    <string name="state_wait">PLEASE WAIT…</string>
+    <string name="state_reconnecting">RECONNECTING…</string>
+
+    <string name="view_pager_servers_tap_to_connect_not_connected">TAP TO CONNECT</string>
+    <string name="view_pager_servers_tap_to_connect_connecting">CONNECTING…</string>
+    <string name="view_pager_servers_tap_to_connect_connected">TAP TO DISCONNECT</string>
+    <string name="view_pager_servers_watch_ad">Watch\nAd</string>
+    <string name="view_pager_servers_buy_subscription">Buy\nSubscription</string>
+    <string name="ads_not_available">Ad not available</string>
+    <string name="ads_not_available_buy_subscription">Currently Ads are Not Available, Please Buy the Subscription</string>
+
+
+</resources>

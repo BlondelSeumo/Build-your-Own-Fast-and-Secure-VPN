@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="250dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:id="@+id/flag_image_r"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="6dp">
+
+            <ImageView
+                android:id="@+id/country_flag"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginStart="60dp"
+                android:src="@drawable/uk"
+                app:srcCompat="@drawable/uk"  />
+
+            <TextView
+                android:id="@+id/region_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/country_flag"
+                android:layout_alignBottom="@+id/country_flag"
+                android:layout_marginStart="-11dp"
+                android:layout_marginLeft="-71dp"
+                android:layout_marginBottom="-120dp"
+                android:layout_toRightOf="@+id/country_flag"
+                android:fontFamily="@font/campton_bold"
+                android:gravity="bottom"
+                android:text="DEFAULT REGION"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/region_limit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text="218ms"
+                android:textSize="16dp"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_crowd" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="1dp"
+            android:paddingLeft="5dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/country_flag1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/uk" />
+
+            <TextView
+                android:id="@+id/region_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="20dp"
+                android:text="DEFAULT REGION"
+                android:textColor="@android:color/white"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/region_limit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:padding="@dimen/default_padding"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

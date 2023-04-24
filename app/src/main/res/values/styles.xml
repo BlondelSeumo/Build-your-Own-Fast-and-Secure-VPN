@@ -1,0 +1,147 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">#1A2B63</item>
+        <item name="android:navigationBarColor">#1A2B63</item>
+        <item name="android:statusBarColor">#1A2B63</item>
+    </style>
+
+
+    <style name="AppTheme1" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:textColor">@color/popUpBg</item>
+        <item name="colorControlNormal">@color/toolbarTitle</item>
+        <item name="android:statusBarColor">#1A2B63</item>
+    </style>
+
+    <style name="Splashscreentheme" parent="AppTheme.NoActionBar">
+        <item name="colorPrimaryDark">#031837</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@color/primary</item>
+        <item name="android:colorBackground">@color/primary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonLayout" parent="android:Theme">
+        <item name="android:paddingLeft">@dimen/default_padding</item>
+        <item name="android:paddingRight">@dimen/default_padding</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="DefaultBtn" parent="@android:style/TextAppearance">
+        <item name="android:paddingTop">@dimen/default_padding</item>
+        <item name="android:paddingBottom">@dimen/default_padding</item>
+        <item name="android:background">@drawable/btn_bkg</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StateText" parent="@android:style/TextAppearance">
+        <item name="android:paddingLeft">@dimen/default_padding</item>
+        <item name="android:paddingRight">@dimen/default_padding</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="MyToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="seekBarStyle" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="android:maxHeight">20dip</item>
+        <item name="android:colorBackground">@color/primary</item>
+    </style>
+
+    <style name="TextView" />
+
+    <style name="TextView.Small">
+        <item name="android:textSize">9sp</item>
+        <item name="alpha">0.5</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="BottomNavigationViewTextStyle">
+        <item name="android:fontFamily">@font/campton_bold</item>
+    </style>
+
+    <style name="ActionButton">
+        <item name="android:layout_height">48dp</item>
+        <item name="fontFamily">@font/campton_bold</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_action_button</item>
+        <item name="android:letterSpacing" tools:ignore="NewApi">0.2</item>
+    </style>
+
+    <style name="TextView.Action">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/campton_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:background">@drawable/bg_action_button_2</item>
+    </style>
+
+    <style name="ActionButton.State">
+        <item name="android:background">@drawable/bg_action_button_state</item>
+    </style>
+
+    <style name="TextView.Content">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/campton_book</item>
+    </style>
+
+    <style name="TextView.LabelProfile">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="fontFamily">@font/campton_bold</item>
+    </style>
+
+    <style name="TextView.TextFielProfile" parent="TextView.LabelProfile">
+        <item name="fontFamily">@font/campton_book</item>
+    </style>
+
+    <style name="ActionButton.Small">
+        <item name="android:layout_height">40dp</item>
+        <item name="fontFamily">@font/campton_bold</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_action_button</item>
+    </style>
+
+</resources>

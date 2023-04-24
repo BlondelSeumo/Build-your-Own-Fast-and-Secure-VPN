@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_navigation_home"
+        android:icon="@drawable/ic_nav_home"
+        android:title="@string/vpn" />
+
+    <item
+        android:id="@+id/bottom_navigation_premium"
+        android:icon="@drawable/ic_nav_premium"
+        android:title="@string/premium" />
+
+    <item
+        android:id="@+id/nav_policy"
+        android:icon="@drawable/ic_privacy"
+        android:title="Privacy Policy" />
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share App" />
+
+    <item
+        android:id="@+id/nav_rate"
+        android:icon="@drawable/like"
+        android:title="Share App" />
+
+</menu>

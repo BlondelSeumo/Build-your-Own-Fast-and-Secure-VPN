@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_common"
+    tools:parentTag="android.widget.RelativeLayout">
+
+    <ImageButton
+        android:id="@+id/btnLeft"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="?selectableItemBackgroundBorderless"
+        tools:src="@drawable/ic_arrowleft" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLeft"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorwhite"
+        android:fontFamily="@font/campton_bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/btnRight"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:minWidth="90dp"
+        android:textColor="@color/colorwhite"
+        android:paddingHorizontal="@dimen/padding_common" />
+</merge>
